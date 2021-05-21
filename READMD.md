@@ -1,8 +1,11 @@
 ## 1. amanbasu/ship-detection
 
+
 link: https://github.com/amanbasu/ship-detection
 
+
 #### clone and make(images)
+
 
 ```
 $ git clone https://github.com/amanbasu/ship-detection
@@ -30,6 +33,8 @@ test해봄으로써 코드가 돌아가는지 확인합니다.
 ```
 $ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
+![image](https://user-images.githubusercontent.com/46602874/119124918-29799400-ba6c-11eb-9835-4e28b39c1ff5.png)
+test의 결과는 위와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/46602874/119124918-29799400-ba6c-11eb-9835-4e28b39c1ff5.png)
 test의 결과는 위와 같습니다.
