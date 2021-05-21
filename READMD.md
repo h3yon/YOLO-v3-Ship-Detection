@@ -21,11 +21,18 @@ cfg/ship.data
 cfg/yolov3-ship.cfg
 ```
 
+`amanbasu/ship-detection`의 dataset 디렉토리 또한 darknet 디렉토리 아래로 이동시킵니다.
+yolov3.weights 파일 또한 다운로드 받아 darknet 디렉토리 아래로 이동시킵니다.
+yolov3.weights 파일은 [여기](https://pjreddie.com/media/files/yolov3.weights)에서 다운로드 가능합니다.
+
 test해봄으로써 코드가 돌아가는지 확인합니다.
 
 ```
 $ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
+
+![image](https://user-images.githubusercontent.com/46602874/119124918-29799400-ba6c-11eb-9835-4e28b39c1ff5.png)
+test의 결과는 위와 같습니다.
 
 ship 데이터를 train 시킵니다.
 
