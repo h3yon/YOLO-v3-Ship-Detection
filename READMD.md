@@ -37,7 +37,9 @@ test의 결과는 위와 같습니다.
 ![image](https://user-images.githubusercontent.com/46602874/119124918-29799400-ba6c-11eb-9835-4e28b39c1ff5.png)
 test의 결과는 위와 같습니다.
 
+![image](https://user-images.githubusercontent.com/46602874/119244452-cbec6100-bbab-11eb-9e4d-e71c6f9e8f4f.png)
 ship 데이터를 train 시킵니다.
+중간에 멈추더라도 일정 시간이 지나면 backup파일에 결과물이 있음을 알 수 있습니다.
 
 ```
 $ ./darknet detector train cfg/ship.data cfg/yolov3-ship.cfg darknet53.conv.74
@@ -49,5 +51,6 @@ test함으로써 결과를 확인합니다.
 $ ./darknet detector test cfg/ship.data cfg/yolov3.cfg backup/backup_file.weights test_file.jpg
 ```
 
-![image](https://user-images.githubusercontent.com/46602874/119244452-cbec6100-bbab-11eb-9e4d-e71c6f9e8f4f.png)
-no end..
+![image](https://user-images.githubusercontent.com/46602874/119244541-c5aab480-bbac-11eb-820b-f290b04b655b.png)
+backup파일에 있던 weights 파일 이름을 넣어주고 test할 파일을 darknet 디렉토리 안에 넣어줍니다.
+test하면 ship이 잘 나옴을 알 수 있습니다.
