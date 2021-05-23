@@ -48,3 +48,6 @@ test함으로써 결과를 확인합니다.
 ```
 $ ./darknet detector test cfg/ship.data cfg/yolov3.cfg backup/backup_file.weights test_file.jpg
 ```
+
+![image](https://user-images.githubusercontent.com/46602874/119244452-cbec6100-bbab-11eb-9e4d-e71c6f9e8f4f.png)
+no end..
