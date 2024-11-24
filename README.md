@@ -1,6 +1,7 @@
 ## 1. amanbasu/ship-detection
 
-link: https://github.com/amanbasu/ship-detection
+- link1: https://github.com/amanbasu/ship-detection
+- link2: https://github.com/pjreddie/darknet
 
 #### clone and make(images)
 
